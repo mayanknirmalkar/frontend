@@ -35,7 +35,7 @@
 }
 
 .cards{
-    width: 380px;
+    width: auto;
     height:auto;
     border:1px solid rgba(0,0,0,0.1);
     padding: 2rem 1rem;
@@ -118,15 +118,15 @@
 
 .banner{
     width: auto;
-    display: flex;
-    justify-content: space-evenly;
     border-radius: 20px;
     transform: rotateX(-20deg);
     transition: transform 1s ease-in-out;
 }   
 
+
+
 .banner-left-mid p{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 550;
     margin:1rem auto;
 }

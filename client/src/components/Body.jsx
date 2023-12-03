@@ -12,6 +12,7 @@ import { FaHammer } from "react-icons/fa";
 import connectapp from "../assets/connectapp.webp"
 import { useState, useEffect } from "react";
 
+
 const Body = () => {
 
     const [scrollPosition, setScrollPosition] = useState(0);

@@ -11,11 +11,13 @@ const Pricing = () => {
                  <FaDollarSign color="green"/>
                 <span>  PRICING</span>
             </div>
+            <ScrollAnimation>
             <div className="pricing-top-mid">
-                <ScrollAnimation>
+                
                 <p>Select your ideal <span>Pricing</span> plan</p>
-                </ScrollAnimation>
+               
             </div>
+            </ScrollAnimation>
             <div className="pricing-top-bottom">
                 <span>At Manage Wise, we believe in providing you with pricing plans that adapt to your unique needs.</span> 
             </div>

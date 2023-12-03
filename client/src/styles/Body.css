@@ -27,7 +27,7 @@
 }
 
 .body-head-mid p{
-    font-size: 55px;
+    font-size: 3rem;
     font-weight: 400;
     font-family: 'Inter';
     margin:0;
@@ -241,6 +241,36 @@
     bottom:-200px;
 }
 
+@media screen and (max-width:1400px) {
+    .body-bottom-right div.dropbox{
+        display:none;
+    }
+
+    .body-bottom-left div.gmail{
+        display: none;
+    }
+
+    .body-bottom-left div.gitlab{
+        display: none;
+    }
+
+    .body-bottom-right div.slack{
+        display: none;
+    }
+
+    .body-body{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .body-body > div{
+        margin-bottom: 2rem;
+        height: auto;
+        width: auto;
+    }
+    
+}
+
 .body-bottom-right div.slack{
     position: absolute;
     right: 20px;
@@ -282,7 +312,7 @@
 }
 
 .body-bottom-center-mid{
-    font-size: 55px;
+    font-size: 4rem;
     word-wrap: wrap;
     text-align: center;
 }
@@ -295,5 +325,5 @@
 .body-bottom-center-mid p{
     margin:0;
     margin:1rem;
+    font-size: 3rem !important;
 }
-
