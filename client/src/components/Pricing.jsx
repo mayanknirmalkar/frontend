@@ -1,3 +1,4 @@
+//Importing the necessary icons, css files and images
 import "../styles/Pricing.css";
 import { FaDollarSign } from "react-icons/fa6";
 import { TiTick } from "react-icons/ti";

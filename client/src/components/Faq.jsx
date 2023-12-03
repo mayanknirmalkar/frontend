@@ -1,3 +1,4 @@
+//importing icons, images and css files and also the scroll animation file
 import { BsPersonRaisedHand } from "react-icons/bs";
 import "../styles/Faq.css";
 import { useState } from "react";
@@ -7,7 +8,7 @@ import ScrollAnimation from "./ScrollAnimation";
 
 
 const Faq = () => {
-
+    //the states below are named based on the last name of the paragraphs of answers, basically these are being used to open the divs of questions to see answers
     const [showOffer, setShowOffer] = useState(false);
     const [showAlike, setShowAlike] = useState(false);
     const [showPlatforms, setShowPlatforms] = useState(false);

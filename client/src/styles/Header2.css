@@ -102,6 +102,7 @@
     color:rgba(118, 117, 117,1);
 }
 
+/*Responsive code css here*/
 
 @media screen and (max-width:1400px) {
     .mid-wrapper{
@@ -128,7 +129,7 @@
 
 
 
-
+/*Basic code css*/
 
 .bottom-wrapper{
     display: flex;

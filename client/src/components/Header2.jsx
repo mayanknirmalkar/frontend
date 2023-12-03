@@ -1,3 +1,4 @@
+//Importing the necessary icons, css files and images
 import { IoMdFlame } from "react-icons/io";
 import "../styles/Header2.css"
 import { FaStar } from "react-icons/fa";

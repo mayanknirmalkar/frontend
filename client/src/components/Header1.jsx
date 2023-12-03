@@ -1,3 +1,4 @@
+//importing css files, icons and images
 import "../styles/Header1.css"
 import { PiHandWavingFill } from "react-icons/pi";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
@@ -9,25 +10,32 @@ import ScrollAnimation from "./ScrollAnimation";
 
 const Header1 = () => {
 
-    const [scrollPercentage , setScrollPercentage] = useState(0);
+    //again to listen to the scroll over the dashboard image this state has been initialized. Initially the image will be rotated and as we scroll over it it moves to its normal position
+    
     const [scroll, setScroll] = useState(false)
 
     useEffect(()=>{
+        //handle function of scroll event
         const handleScroll =() =>{
+
+            //trying to know whre the user has scrolled
             const newScrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-            setScrollPercentage(newScrollPercentage);
+
+            //once the scroll is near the image set the state and with the help of it we will bring image to normal position
             if(newScrollPercentage > 5){
                 setScroll(true)
             }
         }
-
+        //adding scrool event listener
         window.addEventListener('scroll', handleScroll)
 
+        //removing scroll event listener
         return ()=>{
             window.removeEventListener('scroll', handleScroll)
         }
     },[])
 
+    //creating a const variable to use it to be put in astyle as an object
     const swingBackAnimation = {
         transform: `rotateX(0deg)`
       };

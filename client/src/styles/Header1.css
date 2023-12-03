@@ -50,6 +50,8 @@
     -webkit-font-smoothing: antialiased;
 }
 
+/*Responsive code here*/
+
 @media screen and (max-width:810px) {
     .msg-wrapper p{
         margin:0;
@@ -68,7 +70,7 @@
   
 }
 
-
+/*Basic css */
 .msg-wrapper p span{
     color:rgb(254, 129, 98);
 }

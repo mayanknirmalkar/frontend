@@ -1,3 +1,4 @@
+//Importing the necessary icons, css files and images
 import "../styles/Navbar.css"
 import logo from "../assets/logo.webp"
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -13,7 +14,7 @@ import Footer from "./Footer";
 
 //Navbar of the website
 const Navbar = () => {
-
+  //hamburger variable being used to know if the hamburger button has been pressed and the navbar in responsive mode is open or closed?
   const [hamburgerShow, setHamburgurShow] = useState(false);
   return (
     <>

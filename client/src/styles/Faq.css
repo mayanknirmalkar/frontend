@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
 }
-
+/*Responsive code here*/
 @media screen and (max-width:1400px) {
     .inclusive-faq{
         flex-direction: column;
@@ -28,6 +28,8 @@
     }
 }
 
+
+/*All basic code for css*/
 .faq-top-mid p{
     font-size: 3rem;
     font-weight: 500;

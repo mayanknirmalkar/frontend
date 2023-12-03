@@ -45,12 +45,14 @@ a:hover{
     align-items: center;
 }
 
+/*Responsive code here*/
 @media screen and (max-width:1240px){
     .nav-img p{
         display:none;
     }
 }
 
+/*Basic code css*/
 .nav-img p{
     margin-left: 1rem;
     font-size: larger;
@@ -103,7 +105,7 @@ a:hover{
     margin-left: 2rem;
 }
 
-/*Responsive code*/
+/*Responsive code css here*/
 .inclusive-nav-duplicate{
     background-color: white;
     transition: 1s ease;
@@ -151,6 +153,8 @@ a:hover{
     padding: 1rem;
     border-radius: 10px;
 }
+
+/*Responsive code here*/
 
 @media screen and (max-width:810px) {
     .options-wrapper{

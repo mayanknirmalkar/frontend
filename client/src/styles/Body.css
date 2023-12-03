@@ -244,6 +244,8 @@
     bottom:-200px;
 }
 
+/*Responsive code is here*/
+
 @media screen and (max-width:1400px) {
     .body-bottom-right div.dropbox{
         display:none;
@@ -274,6 +276,8 @@
     
 }
 
+
+/*Basic code for css */
 .body-bottom-right div.slack{
     position: absolute;
     right: 20px;

@@ -42,6 +42,7 @@
     margin: auto;
 }
 
+/*Responsive code here*/
 @media screen and (max-width:1400px) {
     .pricing-bottom-wrapper{
         flex-direction: column;
@@ -53,6 +54,7 @@
     }
 }
 
+/*Basic code*/
 .pricing-bottom-left{
     background-color:rgba(138,43,226,0.09);
     border-radius: 30px;

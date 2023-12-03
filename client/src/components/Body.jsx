@@ -1,3 +1,4 @@
+//Importing the necessary icons, css files and images
 import { BsEmojiHeartEyesFill } from "react-icons/bs";
 import "../styles/Body.css"
 import { CiMobile2 } from "react-icons/ci";
@@ -14,16 +15,22 @@ import { useState, useEffect } from "react";
 
 
 const Body = () => {
-
+    //Wish to listen to scroll and then use the scrollY calculate to create div moving up as we scroll down effect
     const [scrollPosition, setScrollPosition] = useState(0);
 
     useEffect(() => {
       const handleScroll = () => {
+
+        //setting to the position where we have scrolled the webpage to i.e the scrollY value
         setScrollPosition(window.scrollY);
+
       };
-  
+      
+      //adding event listener for the scroll of window
       window.addEventListener("scroll", handleScroll);
-  
+      
+
+      //removing eventlistener for scroll
       return () => {
         window.removeEventListener("scroll", handleScroll);
       };

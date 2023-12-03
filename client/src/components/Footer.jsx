@@ -1,3 +1,4 @@
+//importing css files, images, icons, and other dependencies
 import "../styles/Footer.css"
 import { FaHeart } from "react-icons/fa";
 import Alex from "../assets/Alex.webp"
@@ -15,20 +16,25 @@ import ScrollAnimation from "./ScrollAnimation";
 import { useEffect, useState } from "react";
 
 const Footer = () => {
-    const [scrollPercentage , setScrollPercentage] = useState(0);
+
+    //This state have been created for listening to the event of scroll over 90% of the page i.e footer of the page. This is done for created a swinging effect for the banner
+    
     const [isScrolled, setIsScrolled] = useState(false)
 
     useEffect(()=>{
+        //handler for scroll event
         const handleScroll =() =>{
+            //calculating the percentage of whole page that have been scrolled
             const newScrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-            setScrollPercentage(newScrollPercentage);
+            //if the page have been scrolled above 90% i.e you are over the element that we wish to be swinged ser state values which can be further used to change the roate value so that the element is only swinged once and never again
             if(newScrollPercentage > 91){
                 setIsScrolled(true)
             }
         }
-
+        //adding scrool event listener
         window.addEventListener('scroll',handleScroll);
 
+        //removing scroll event listener
         return ()=>{
             window.removeEventListener('scroll', handleScroll);
         }
