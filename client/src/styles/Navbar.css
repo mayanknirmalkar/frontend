@@ -1,4 +1,16 @@
+.header{
+    background: linear-gradient(to bottom, rgb(253, 242, 236) 0%, white 100%);
+    
+}
 
+.footer{
+    background: linear-gradient(to bottom, white 0%, rgb(253, 242, 236) 100%);
+}
+
+
+a{
+    text-decoration: none;
+}
 
 .inclusive-nav{
         padding:16px 24px;
@@ -155,3 +167,4 @@
 .nav-option1:hover, .nav-option2:hover, .nav-option3:hover, .nav-option4:hover{
     color:blueviolet;
 }   
+

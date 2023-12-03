@@ -3,6 +3,13 @@ import logo from "../assets/logo.webp"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
+import Header1 from "./Header1.jsx";
+import Header2 from "./Header2.jsx";
+import Body from "./Body";
+import Faq from "./Faq";
+import Pricing from "./Pricing";
+import Footer from "./Footer";
+
 
 //Navbar of the website
 const Navbar = () => {
@@ -10,6 +17,8 @@ const Navbar = () => {
   const [hamburgerShow, setHamburgurShow] = useState(false);
   return (
     <>
+    <div className="header">
+    
     { hamburgerShow ? 
 
 
@@ -30,23 +39,23 @@ const Navbar = () => {
             
 
                 <div className="nav-option-duplicate">
-                  Features
+                  <a href="#features">Features</a>
                   
                 </div>
                 
                 <div className="nav-option-duplicate">
-                  FAQ
+                <a href="#faq">FAQ</a>
                   
                 </div>
                 
                 <div className="nav-option-duplicate">
-                  Pricings
+                <a href="#pricing">Pricing</a>
                   
                 </div>
                 
                 
                 <div className="nav-option-duplicate">
-                  Testimonials
+                <a href="#testimonials">Testimonials</a>
                   </div>
                 <div className="nav-btn-duplicate">
                 Buy Template
@@ -76,23 +85,23 @@ const Navbar = () => {
             
 
                 <div className="nav-option1">
-                  Features
+                <a href="#features">Features</a>
                   <span className="dot"></span>
                 </div>
                 
                 <div className="nav-option2">
-                  FAQ
+                <a href="#faq">FAQ</a>
                   <span className="dot"></span>
                 </div>
                 
                 <div className="nav-option3">
-                  Pricings
+                <a href="#pricing">Pricing</a>
                   <span className="dot"></span>
                 </div>
                 
                 
                 <div className="nav-option4">
-                  Testimonials
+                <a href="#testimonials">Testimonials</a>
                   </div>
                 <div className="nav-btn">
                 Buy Template
@@ -104,7 +113,24 @@ const Navbar = () => {
         </div>
     </div>
     }
+    <Header1/>
+    <section id="features">
+      <Header2/>
+    </section>
+    </div>
 
+    <Body/>
+    <section id="faq">
+      <Faq/>
+    </section>
+    <section id="pricing">
+      <Pricing/>
+    </section>
+    <div className="footer">
+    <section id="testimonials">
+      <Footer/>
+    </section>
+    </div>
     </>
   )
 }

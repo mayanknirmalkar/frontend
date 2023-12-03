@@ -5,11 +5,3 @@ body{
     overflow-x: hidden;
 }
 
-.header{
-    background: linear-gradient(to bottom, rgb(253, 242, 236) 0%, white 100%);
-    
-}
-
-.footer{
-    background: linear-gradient(to bottom, white 0%, rgb(253, 242, 236) 100%);
-}

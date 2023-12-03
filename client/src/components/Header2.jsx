@@ -9,8 +9,8 @@ import ScrollAnimation from "./ScrollAnimation";
 
 const Header2 = () => {
   return (
-        <div className="inclusive-header2">
-
+        <div className="inclusive-header2" >
+            
             <div className="header2-wrapper">
 
                     <div className="top-wrapper">
