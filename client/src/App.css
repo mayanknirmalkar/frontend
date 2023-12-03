@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin:0;
+    font-family: 'Inter';
+}
+
+.header{
+    background: linear-gradient(to bottom, rgb(253, 242, 236) 0%, white 100%);
+    
+}
+
+.footer{
+    background: linear-gradient(to bottom, white 0%, rgb(253, 242, 236) 100%);
+}

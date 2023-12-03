@@ -1,0 +1,196 @@
+.welcome{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    
+}
+
+.welcome p{
+    border: 1px solid rgba(0,0,0,0.3);
+    width: auto;
+    margin: 3px;
+    font-size: 0.9rem;
+    color: blueviolet;
+    font-weight: bold;
+    text-wrap: nowrap;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+.title-wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.welcome svg{
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+
+.msg-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.msg-wrapper p{
+    margin:0;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    line-height: 5rem;
+    letter-spacing: -2px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width:810px) {
+    .msg-wrapper p{
+        margin:0;
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 4rem;
+        letter-spacing: -2px;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .msg-wrapper .desc span{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+  
+}
+
+
+.msg-wrapper p span{
+    color:rgb(254, 129, 98);
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.msg-wrapper .desc span{
+    color: rgba(118, 117, 117,0.8);
+    font-size: 1.50rem;
+    font-weight: 500;
+    text-wrap:wrap;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.msg-wrapper .desc{
+    margin-top: 5vh;
+    width:60%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.options-wrapper-head .get-started-wrapper{
+    background-color: blueviolet;
+    width: 10vw;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.options-wrapper-head .get-started-wrapper svg{
+    margin-left: 10px;
+}
+
+.options-wrapper-head .get-started-wrapper .get-started-hover{
+    display: none;
+    
+}
+
+.options-wrapper-head .get-started-wrapper:hover .get-started-hover{
+    display: flex;
+   
+}
+
+.options-wrapper-head .get-started-wrapper:hover{
+    box-shadow: 
+    5px 0 10px 3px rgba(138, 43, 227, 0.4),   /* Right side shadow */
+    -5px 0 10px 3px rgba(138, 43, 227, 0.4),  /* Left side shadow */
+    0 -5px 10px 3px rgba(138, 43, 227, 0.4),  /* Top side shadow */
+    0 5px 10px 3px rgba(138, 43, 227, 0.4); 
+    transition: 0.1s ease-in-out;
+}
+
+.options-wrapper-internal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.options-wrapper-head{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-wrap: nowrap;
+}
+
+.options-wrapper-head .options-wrapper-internal{
+    margin-top: 5vh;
+    display: flex;
+}
+
+.options-wrapper-head .options-wrapper-internal .demo{
+    margin-left: 2rem;
+    background-color: white;
+    padding: 1rem 2rem;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.options-wrapper-head .options-wrapper-internal .demo .svg{
+    margin-left: 10px;
+}
+
+.options-wrapper-head .options-wrapper-internal .demo span{
+    display: flex;
+    align-items: center;
+}
+
+.options-wrapper-head .options-wrapper-internal .demo:hover{
+    border: 1px solid black;
+}
+
+.bottom .img-wrap img{
+    width: 80vw;
+    box-shadow: 0 20px 10px 10px rgba(0,0,0,0.1);
+    transform: rotateX(-25deg);
+    transition: transform 1s ease-in-out;
+}
+
+.bottom .img-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 2rem 0;
+    perspective: 1000px;
+}
+

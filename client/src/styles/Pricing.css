@@ -1,0 +1,121 @@
+.pricing-top-top{
+    color:blueviolet;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: auto;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-weight: 500;
+}
+
+.pricing-top-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing-top-mid{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.pricing-top-mid span{
+    color: rgb(254, 129, 98);
+}
+
+.pricing-top-bottom{
+    width: 35vw;
+    color: rgba(118, 117, 117,1);
+    font-size: 1.25rem;
+    font-weight: 500;
+    word-wrap: wrap;
+    text-align: center;
+}
+
+.pricing-bottom-wrapper{
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.pricing-bottom-left{
+    background-color:rgba(138,43,226,0.09);
+    border-radius: 30px;
+    padding:3rem;
+    height: 50vh;
+    align-self: flex-end;
+}
+
+
+.pricing-bottom-left-top span{
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    color:darkorange;
+    padding: 5px;
+}
+
+.pricing-bottom-mid{
+    background-color: black;
+    color:white;
+    border-radius: 30px;
+    padding:4rem;
+    height: 54vh;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.pricing-bottom-left-mid p{
+    font-size:3rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.pricing-bottom-left-mid span{
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.pricing-bottom-left-mid{
+    display: flex;
+    align-items: center;
+}
+
+.pricing-bottom-left-bottom{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    color: rgba(118, 117, 117,1);
+    font-size: 1.15rem;
+}
+
+.pricing-bottom-left-bottommost span{
+    background-color: white;
+    width: auto;
+    padding:1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pricing-bottom-left-bottommost{
+    margin-top: 5rem;
+}
+
+.pricing-bottom-mid-bottommost{
+    margin-top: 4rem;
+}
+
+.pricing-bottom-mid-bottommost span{
+    background-color: blueviolet;
+    width: auto;
+    padding:1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inclusive-pricing{
+    margin-bottom: 30vh;
+}

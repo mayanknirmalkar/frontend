@@ -1,0 +1,169 @@
+
+.top-wrapper .premier{
+    color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+
+
+.top-wrapper .premier span{
+    border: 1px solid rgb(0, 0, 0, 15%);
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+
+.top-wrapper .premier span svg{
+    margin-left: 2px;
+}
+
+.title-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-wrap p{
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-family: 'Inter';
+    margin:0;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.title-wrap p span{
+    color: rgb(254, 129, 98);
+}
+
+.top-wrapper .description{
+    color: rgba(118, 117, 117,1);
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-wrap:wrap;
+    text-align: center;
+    line-height: 2rem;
+    font-family: 'Inter';
+    text-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-wrapper .description p{
+    width: 40%;
+}
+
+
+
+
+
+.mid-wrapper{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header2-left{
+    background-color: rgba(138,43,226,0.1);
+    width: auto;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 10rem 1rem;
+    font-size: 2rem;
+}
+
+
+
+.header2-right{
+    width: auto;
+    min-width: 50%;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.img-wrap img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-wrap p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-wrap span{
+    font-size: 1.25rem;
+    color:rgba(118, 117, 117,1);
+}
+
+
+@media screen and (max-width:1400px) {
+    .mid-wrapper{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .bottom-wrapper{
+        flex-direction: column;
+    }
+
+    .scheduling{
+        width: 80% !important;
+    }
+    
+    .easycommunication{
+        width: 80% !important;
+    }
+    
+    .analytics{
+        width: 80% !important;
+    }
+}
+
+
+
+
+
+.bottom-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.bottom-wrapper img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.scheduling{
+    width:27%;
+}
+
+.easycommunication{
+    width:27%;
+}
+
+.analytics{
+    width:27%;
+}
+
+.bottom-wrapper span{
+    font-size: 1.25rem;
+    color:rgba(118, 117, 117,1);
+}
+
+.bottom-wrapper p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header2-wrapper{
+    margin-bottom: 20vh;
+}
