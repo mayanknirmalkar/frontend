@@ -28,7 +28,7 @@ const ScrollAnimation = ({ children }) => {
       };
     }, []);
   
-    return <div className="Bounce" ref={elementRef}>{children}</div>;
+    return <div ref={elementRef}>{children}</div>;
   };
   
   export default ScrollAnimation;
