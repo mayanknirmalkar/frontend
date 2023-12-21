@@ -18,6 +18,8 @@ https://frontend-rose-three-52.vercel.app/
 
 
 ## Getting Started
+cd client
+<br>
 npm install
 <br>
 npm start
